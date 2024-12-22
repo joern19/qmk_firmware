@@ -92,37 +92,53 @@
                 { "matrix": [8, 3], "x": 14, "y": 3 },
                 { "matrix": [8, 2], "x": 15, "y": 3 },
                 { "matrix": [8, 1], "x": 16, "y": 3 },
-                { "matrix": [8, 0], "x": 10, "y": 6, "h": 2 },
+                { "matrix": [8, 0], "x": 10, "y": 6 },
 
-                { "matrix": [4, 0], "x": 0, "y": 4 },
+                // LT 1
+                { "matrix": [4, 0], "x": 0, "y": 4 }, // ! LT 1
                 { "matrix": [4, 1], "x": 1, "y": 4 },
                 { "matrix": [4, 2], "x": 2, "y": 4 },
                 { "matrix": [4, 3], "x": 3, "y": 4 },
                 { "matrix": [4, 4], "x": 4, "y": 4 },
-                { "matrix": [4, 5], "x": 5, "y": 6, "h": 2 },
+                // ! SPACE
+                { "matrix": [4, 5], "x": 5, "y": 6 }, // ! SPACE
+
+                { "matrix": [9, 5], "x": 12, "y": 4 }, //! ENTER
+
+                // ! ARROW UP
+                { "matrix": [9, 4], "x": 13, "y": 4 }, // ! ARROW UP
+                // ! ARROW DOWN
+                { "matrix": [9, 3], "x": 14, "y": 4 }, // ! ARROW DOWN
+
+                // ! {
+                { "matrix": [9, 2], "x": 15, "y": 4 }, // ! {
+                // ! }
+                { "matrix": [9, 1], "x": 16, "y": 4 }, // ! }
+                // ! TT
+                { "matrix": [9, 0], "x": 9, "y": 7 }, // TT
+
+                // ! BACKSPACE
                 { "matrix": [4, 6], "x": 9, "y": 6 },
+                // ! ALT / MENU
+                { "matrix": [0, 6], "x": 6, "y": 5 }, // ! LEFT ALT
+                // ! WIN
+                { "matrix": [1, 6], "x": 7, "y": 6 }, //! GUI
 
-                { "matrix": [9, 4], "x": 13, "y": 4 },
-                { "matrix": [9, 3], "x": 14, "y": 4 },
-                { "matrix": [9, 2], "x": 15, "y": 4 },
-                { "matrix": [9, 1], "x": 16, "y": 4 },
-                { "matrix": [9, 0], "x": 9, "y": 7 },
+                // ! ALT
+                { "matrix": [6, 6], "x": 11, "y": 1 }, // RIGHT ALT
+                // ! CTRL / ESC
+                { "matrix": [5, 6], "x": 6, "y": 0 }, // ! CTRL / ESC
+                // ! TAB
+                { "matrix": [9, 6], "x": 11, "y": 6, "h": 2 }, //! TAB
 
-                { "matrix": [0, 6], "x": 6, "y": 5 },
-                { "matrix": [1, 6], "x": 7, "y": 6 }, // should be correct (space)
-                { "matrix": [2, 6], "x": 6, "y": 6, "h": 2 },
-
-                // alt
-                { "matrix": [8, 6], "x": 11, "y": 3 }, // alt
-                { "matrix": [9, 5], "x": 12, "y": 4 },
-                { "matrix": [9, 6], "x": 11, "y": 6, "h": 2 }, // should be correct (tab)
-
-                { "matrix": [5, 6], "x": 6, "y": 0 },
-                // pgup:
-                { "matrix": [6, 6], "x": 11, "y": 1 }, // pgup
-                { "matrix": [3, 6], "x": 7, "y": 7 }, // should be correct (end)
-                // pgdown: 
-                { "matrix": [7, 6], "x": 11, "y": 2 }, // pgdown
+                // ! HOME
+                { "matrix": [2, 6], "x": 6, "y": 6, "h": 2 }, //! HOME
+                // ! page up
+                { "matrix": [7, 6], "x": 11, "y": 2 }, //! PAGE UP
+                // ! end
+                { "matrix": [3, 6], "x": 7, "y": 7 }, //! END
+                // ! page down
+                { "matrix": [8, 6], "x": 11, "y": 3 }, // ! page down
             ]
         }
     }
